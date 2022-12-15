@@ -11,6 +11,7 @@
   top: 20px;
   position: relative;
   width: 50%;
+  border-radius: 10%;
 }
 
 .login {
@@ -32,6 +33,7 @@
   color: #F1F1F2;
   position: relative;
   width: 50%;
+  border-radius: 10%;
 }
 
 svg {
