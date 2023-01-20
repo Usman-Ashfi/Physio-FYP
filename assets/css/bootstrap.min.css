@@ -39,7 +39,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  /*font-size: calc(1.375rem + 1.5vw);*/
 }
 
 @media (min-width: 1200px) {
@@ -9241,7 +9241,7 @@ textarea.form-control-lg {
 
 .text-dark {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  /*color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;*/
 }
 
 .text-black {
