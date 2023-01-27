@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Bootstrap Multi Step Form with Progress Bar Example</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Background-motion1-untitled.css">
+    <link rel="stylesheet" href="assets/css/bar.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-Chat.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/D-Verification.css">
+    <link rel="stylesheet" href="assets/css/dh-card-image-left-dark.css">
+    <link rel="stylesheet" href="assets/css/File%20Upload%20Profile.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/search.css">
+</head>
+
+<body style="color: rgb(255,255,255);background: #191b1b;">
+    <main>
+        <article>
+            <section class="multi_step_form" style="background: rgba(246,249,251,0);">
+                <form id="msform" style="background: #26292b;">
+                    <div class="tittle">
+                        <h2 style="color: rgb(255,255,255);">Verification Process</h2>
+                        <p style="color: rgb(218,222,227);">In order to use this service, you have to complete this verification process</p>
+                    </div>
+                    <ul id="progressbar">
+                        <li class="active">Personal</li>
+                        <li>Verification</li>
+                        <li>Qualification</li>
+                    </ul>
+                    <fieldset>
+                        <div class="form-row">
+                            <div class="row">
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">First Name</small><input class="form-control" type="text"></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Last Name</small><input class="form-control" type="text"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">City</small><input class="form-control" type="text"></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Birthday.</small><input class="form-control" type="text"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Email</small><input class="form-control" type="text"></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Contact.</small><input class="form-control" type="text"></div>
+                            </div>
+                        </div>
+                        <div class="done_text"><a href="#" class="don_icon"><i class="ion-android-done"></i></a></div><button type="button" class="action-button previous_button">Back</button><button type="button" class="next action-button">Continue</button>
+                    </fieldset>
+                    <fieldset>
+                        <h3 style="color: rgb(255,255,255);">Verification</h3>
+                        <h6 style="color: rgb(211,215,221);">Please upload your Document to verify your Identity.</h6>
+                        <div class="input-group">
+                            <div class="input-group-text custom-file"><input class="form-control custom-file-input" type="file" id="upload"><label class="form-label custom-file-label" for="upload"><i class="ion-android-cloud-outline"></i>Choose file</label></div>
+                        </div>
+                        <ul class="file_added">
+                            <li>File Added:</li>
+                            <li><i class="ion-paperclip"></i>Degree.png</li>
+                        </ul><button type="button" class="action-button previous previous_button">Back</button><button type="button" class="next action-button">Continue</button>
+                    </fieldset>
+                    <fieldset>
+                        <h3 style="color: rgb(255,255,255);">Choose Your Services</h3>
+                        <h6 style="color: rgb(255,255,255);">Please update your account with security questions</h6>
+                        <section>
+                            <div class="form-group">
+                                <h5 style="color: #ffffff;">Please Select Any One of these</h5>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1" name="customRadio"><label class="form-check-label" for="formCheck-1">Home Service</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2" name="customRadio"><label class="form-check-label" for="formCheck-2">Clinic/Hospital</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-3" name="customRadio"><label class="form-check-label" for="formCheck-3">Both</label></div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="form-group">
+                                <h5 style="color: var(--bs-white);">Please Select the Services you are Going to Offer</h5>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4">Musculoskeletal<br></label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Orthopedic Physiotherapy<br></label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5">Neurological disorders<br></label></div>
+                            </div>
+                        </section><button type="button" class="action-button previous previous_button">Back</button><a href="D-Dashboard.html" class="action-button">Finish</a>
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </main><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.2/js/intlTelInput.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script><script src="js/script.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Animated-gradient-background.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/D-verification.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
