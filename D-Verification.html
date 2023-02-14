@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/dh-card-image-left-dark.css">
     <link rel="stylesheet" href="assets/css/File%20Upload%20Profile.css">
     <link rel="stylesheet" href="assets/css/Filter.css">
+    <link rel="stylesheet" href="assets/css/Form-Select---Full-Date---Month-Day-Year.css">
     <link rel="stylesheet" href="https://djpsoftwarecdn.azureedge.net/reviewcss-v1/review.min.css">
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/Reviews---Manage-reviews-and-ratings_v1.css">
@@ -30,8 +31,8 @@
 <body style="color: rgb(255,255,255);background: #191b1b;">
     <main>
         <article>
-            <section class="multi_step_form" style="background: rgba(246,249,251,0);">
-                <form id="msform" style="background: #26292b;">
+            <section class="multi_step_form" style="background: rgba(246,249,251,0);border-style: none;border-radius: 10px;">
+                <form id="msform" style="background: #26292b;border-radius: 10px;">
                     <div class="tittle">
                         <h2 style="color: rgb(255,255,255);">Verification Process</h2>
                         <p style="color: rgb(218,222,227);">In order to use this service, you have to complete this verification process</p>
@@ -44,16 +45,71 @@
                     <fieldset>
                         <div class="form-row">
                             <div class="row">
-                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">First Name</small><input class="form-control" type="text"></div>
-                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Last Name</small><input class="form-control" type="text"></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">First Name</small><input class="form-control" type="text" style="background: #2e3239;border-style: none;border-radius: 10px;height: 36px;"></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Last Name</small><input class="form-control" type="text" style="border-style: none;border-radius: 10px;height: 36px;color: #d5d5d5;background: #2e3239;"></div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">City</small><input class="form-control" type="text"></div>
-                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Birthday.</small><input class="form-control" type="text"></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">City</small><select class="form-select" style="background: #2e3239;color: rgb(213,213,213);border-style: none;border-radius: 10px;">
+                                        <option value="" selected="">Location</option>
+                                        <option value="">Faisalabad</option>
+                                    </select></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Birthday.</small>
+                                    <div class="row">
+                                        <div class="col-sm-12"><select class="form-select display-inline-block" style="background: #2e3239;border-style: none;color: #d5d5d5;">
+                                                <option value="1" selected="">January</option>
+                                                <option value="2">February</option>
+                                                <option value="3">March</option>
+                                                <option value="4">April</option>
+                                                <option value="5">May</option>
+                                                <option value="6">June</option>
+                                                <option value="7">July</option>
+                                                <option value="8">August</option>
+                                                <option value="9">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select><select class="form-select display-inline-block" style="background: #2e3239;border-style: none;color: #d5d5d5;">
+                                                <option value="1" selected="">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                            </select><select class="form-select display-inline-block" style="color: #d5d5d5;background: #2e3239;border-style: none;">
+                                                <option value="2016" selected="">2016</option>
+                                                <option value="2017">2017</option>
+                                            </select></div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Email</small><input class="form-control" type="text"></div>
-                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Contact.</small><input class="form-control" type="text"></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Email</small><input class="form-control" type="text" style="border-style: none;border-radius: 10px;height: 36px;background: #2e3239;color: #d5d5d5;"></div>
+                                <div class="col-md-6 form-group"><small class="form-text" style="color: rgb(255,255,255);">Contact.</small><input class="form-control" type="text" style="border-style: none;border-radius: 10px;height: 36px;background: #2e3239;color: #d5d5d5;"></div>
                             </div>
                         </div>
                         <div class="done_text"><a href="#" class="don_icon"><i class="ion-android-done"></i></a></div><button type="button" class="action-button previous_button">Back</button><button type="button" class="next action-button">Continue</button>
@@ -62,11 +118,11 @@
                         <h3 style="color: rgb(255,255,255);">Verification</h3>
                         <h6 style="color: rgb(211,215,221);">Please upload your Document to verify your Identity.</h6>
                         <div class="input-group">
-                            <div class="input-group-text custom-file"><input class="form-control custom-file-input" type="file" id="upload"><label class="form-label custom-file-label" for="upload"><i class="ion-android-cloud-outline"></i>Choose file</label></div>
+                            <div class="input-group-text custom-file" style="background: #2e3239;"><input class="form-control custom-file-input" type="file" id="upload"><label class="form-label custom-file-label" for="upload" style="background: #d5d5d5;padding-top: 5px;"><i class="text-center ion-android-cloud-outline"></i>Choose file</label></div>
                         </div>
                         <ul class="file_added">
-                            <li>File Added:</li>
-                            <li><i class="ion-paperclip"></i>Degree.png</li>
+                            <li style="color: #d5d5d5;">File Added:</li>
+                            <li style="color: #d5d5d5;"><i class="ion-paperclip"></i>Degree.png</li>
                         </ul><button type="button" class="action-button previous previous_button">Back</button><button type="button" class="next action-button">Continue</button>
                     </fieldset>
                     <fieldset>
