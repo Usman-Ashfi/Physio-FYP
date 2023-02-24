@@ -352,16 +352,16 @@
 }
 
 .multi_step_form #msform #progressbar li.active {
-  color: #5cb85c;
+  color: #4699bc;
 }
 
 .multi_step_form #msform #progressbar li.active:before, .multi_step_form #msform #progressbar li.active:after {
-  background: #5cb85c;
+  background: #5c60b8;
   color: white;
 }
 
 .multi_step_form #msform .action-button {
-  background: #5cb85c;
+  background: #4063cf;
   color: white;
   border: 0 none;
   border-radius: 5px;
