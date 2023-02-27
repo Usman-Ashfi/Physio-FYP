@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/Appointments%20card.css">
     <link rel="stylesheet" href="assets/css/Background-motion1-untitled.css">
@@ -30,7 +32,7 @@
     <link rel="stylesheet" href="assets/css/search.css">
 </head>
 
-<body style="margin-top: 0px;background: #26292b;">
+<body style="margin-top: 0px;background: #191b1b;">
     <div id="wrapper" style="color: rgba(45,45,45,0);">
         <div class="row">
             <div class="col">
@@ -74,73 +76,21 @@
                 </nav>
             </div>
         </div>
-        <div class="d-flex flex-column" id="content-wrapper" style="background: #191b1b;color: rgb(255,255,255);">
+        <div class="d-flex flex-column" id="content-wrapper" style="background: rgba(25,27,27,0);color: rgb(255,255,255);">
             <div id="content">
-                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top" style="border-radius: 0px;background: linear-gradient(90deg, rgb(46,50,57), #2e3239 98%);">
+                <nav class="navbar navbar-light navbar-expand mb-4 topbar static-top" style="border-radius: 0px;background: rgba(25,27,27,0);border-style: none;border-color: rgba(255,255,255,0);">
                     <div class="container-fluid"><button id="sidebarToggleTop" class="rounded-circle me-3" type="button" style="background: rgba(240,240,240,0);border-style: none;"><i class="fas fa-bars" style="color: rgb(255,255,255);"></i></button>
+                        <div class="container pb-5 pt-5">
+                            <div class="col-md-9 col-xl-8 ml-auto mr-auto">
+                                <form>
+                                    <div class="d-inline-flex align-items-center form-row" style="padding-top: 14px;">
+                                        <div class="d-inline-flex col-sm form-group mb-3"><input class="form-control form-control ps-4 pe-4 rounded-pill" type="text" name="search" placeholder="Search..." style="width: 440.729px;background: #2e3239;margin-right: 10px;margin-left: 10px;border-color: rgba(52,72,225,0.53);border-top-color: rgb(133,;border-right-color: 135,;border-bottom-color: 150);border-left-color: 135,;"></div>
+                                        <div class="col-sm-auto text-end form-group mb-3"><button class="btn btn-primary ps-4 pe-4 rounded-pill" type="submit"><i class="fa fa-search"></i></button></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                         <div class="row">
-                            <div class="col" style="padding-right: 0px;padding-left: 0px;">
-                                <div class="dropdown">
-                                    <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">3+</span><i class="fas fa-bell fa-fw" style="color: rgb(217,217,217);"></i></a>
-                                        <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in" style="background: #2e3239;">
-                                            <h6 class="dropdown-header">alerts center</h6><a class="d-flex align-items-center dropdown-item" href="#">
-                                                <div class="me-3">
-                                                    <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">December 12, 2019</span>
-                                                    <p>A new monthly report is ready to download!</p>
-                                                </div>
-                                            </a><a class="d-flex align-items-center dropdown-item" href="#">
-                                                <div class="me-3">
-                                                    <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">December 7, 2019</span>
-                                                    <p>$290.29 has been deposited into your account!</p>
-                                                </div>
-                                            </a><a class="d-flex align-items-center dropdown-item" href="#">
-                                                <div class="me-3">
-                                                    <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">December 2, 2019</span>
-                                                    <p>Spending Alert: We've noticed unusually high spending for your account.</p>
-                                                </div>
-                                            </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="dropdown">
-                                    <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding-left: 1px;padding-right: 2px;"><span class="badge bg-danger badge-counter">3+</span><i class="icon ion-email fa-fw" style="color: rgb(217,217,217);"></i></a>
-                                        <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
-                                            <h6 class="dropdown-header">alerts center</h6><a class="d-flex align-items-center dropdown-item" href="#">
-                                                <div class="me-3">
-                                                    <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">December 12, 2019</span>
-                                                    <p>A new monthly report is ready to download!</p>
-                                                </div>
-                                            </a><a class="d-flex align-items-center dropdown-item" href="#">
-                                                <div class="me-3">
-                                                    <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">December 7, 2019</span>
-                                                    <p>$290.29 has been deposited into your account!</p>
-                                                </div>
-                                            </a><a class="d-flex align-items-center dropdown-item" href="#">
-                                                <div class="me-3">
-                                                    <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">December 2, 2019</span>
-                                                    <p>Spending Alert: We've noticed unusually high spending for your account.</p>
-                                                </div>
-                                            </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                                </div>
-                            </div>
                             <div class="col" style="padding-left: 0px;padding-right: 1px;">
                                 <div class="dropdown">
                                     <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">
@@ -285,86 +235,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="card" style="background: rgb(38,41,43);border-radius: 10px;border-color: rgba(0,0,0,0);margin-top: 7px;margin-bottom: 7px;">
-                                    <div class="card-body shadow-sm" style="border-radius: 0px;background: rgba(25,27,27,0);">
-                                        <div>
-                                            <div class="row d-xl-flex align-items-xl-center" style="background: #4063cf;border-radius: 10px;height: 30.3958px;">
-                                                <div class="col d-sm-flex d-xl-flex justify-content-center align-items-sm-center">
-                                                    <h1 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">Profile review</h1>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div><svg viewBox="0 0 36 36" class="circular-chart">
-  <path class="circle"
-        stroke-dasharray="30, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-     <text x="18" y="20.35" class="percentage">30%</text>
-</svg></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section data-aos="fade-up">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="card" style="background: rgb(38,41,43);border-radius: 10px;border-style: none;margin-bottom: 7px;margin-top: 7px;">
-                                    <div class="card-body shadow-sm" style="background: rgba(25,27,27,0);border-radius: 0;">
-                                        <div class="row text-start d-xl-flex align-items-xl-center" style="background: #4063cf;border-radius: 10px;height: 30.3958px;">
-                                            <div class="col d-sm-flex d-xl-flex justify-content-center align-items-sm-center">
-                                                <h1 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">Records</h1>
-                                            </div>
-                                        </div>
-                                        <div class="card" style="background: #191b1b;border-style: none;">
-                                            <div class="table-responsive" style="background: #26292b;">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr style="border-color: rgba(251,251,251,0);">
-                                                            <th style="font-family: Roboto, sans-serif;color: rgb(255,255,255);">#</th>
-                                                            <th class="text-center" style="font-family: Roboto, sans-serif;color: rgb(255,255,255);">Patient Name</th>
-                                                            <th class="text-center" style="font-family: Roboto, sans-serif;color: rgb(255,255,255);">Gender</th>
-                                                            <th class="text-center" style="font-family: Roboto, sans-serif;padding-left: 0px;padding-right: 0px;color: rgb(255,255,255);">Details</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody style="border-color: rgba(45,45,45,0);">
-                                                        <tr>
-                                                            <td style="font-size: 17px;font-family: Roboto, sans-serif;color: rgb(255,255,255);">1</td>
-                                                            <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Ali</td>
-                                                            <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-male" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(0,30,255);font-family: Roboto, sans-serif;">
-                                                                    <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
-                                                                </svg></td>
-                                                            <td class="text-center" style="padding-right: 0px;padding-left: 0px;"><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;text-align: center;">DETAILS</button></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">2</td>
-                                                            <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Bilal</td>
-                                                            <td class="text-center"><span style="color: rgb(0, 30, 255);"> </span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-male" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(0,30,255);font-family: Roboto, sans-serif;">
-                                                                    <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
-                                                                </svg></td>
-                                                            <td class="text-center" style="padding-left: 0px;margin-right: 0px;padding-right: 0px;"><span style="color: rgb(0, 30, 255);"> </span><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;text-align: center;">DETAILS</button></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">3</td>
-                                                            <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Iqra</td>
-                                                            <td class="text-center"><span style="color: rgb(0, 30, 255);"> </span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-female" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(255,0,230);font-family: Roboto, sans-serif;">
-                                                                    <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"></path>
-                                                                </svg></td>
-                                                            <td class="text-center" style="padding-left: 0px;padding-right: 0px;"><span style="color: rgb(0, 30, 255);"> </span><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;">DETAILS</button></td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 flex-column">
                                 <div class="card" style="background: #26292b;border-style: none;border-radius: 10px;height: 265px;margin-top: 7px;margin-bottom: 7px;">
                                     <div class="card-body" style="margin-bottom: 11px;">
                                         <div class="row text-start d-xl-flex align-items-xl-center" style="background: #4063cf;border-radius: 10px;height: 30.3958px;">
@@ -398,6 +269,61 @@
                                                 <div class="col text-center" style="margin-top: 0px;padding-top: 13px;padding-bottom: 13px;padding-right: 0px;padding-left: 0px;margin-left: 0px;"><span class="fw-bold" style="color: rgb(255,255,255);font-family: Roboto, sans-serif;font-weight: bold;margin-left: 16px;margin-right: 15px;font-size: 17px;padding-top: 0px;margin-bottom: 2px;margin-top: 0px;">Left Hip Joint</span></div>
                                                 <div class="col text-end" style="padding-top: 13px;padding-bottom: 13px;"><span style="font-family: Roboto, sans-serif;font-size: 17px;padding-left: 0px;margin-left: 0px;">5 Patients</span></div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-aos="fade-up">
+                    <div class="container">
+                        <div class="col-md-6">
+                            <div class="card" style="background: rgb(38,41,43);border-radius: 10px;border-style: none;margin-bottom: 7px;margin-top: 7px;">
+                                <div class="card-body shadow-sm" style="background: rgba(25,27,27,0);border-radius: 0;">
+                                    <div class="row text-start d-xl-flex align-items-xl-center" style="background: #4063cf;border-radius: 10px;height: 30.3958px;">
+                                        <div class="col d-sm-flex d-xl-flex justify-content-center align-items-sm-center">
+                                            <h1 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">Records</h1>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="background: #191b1b;border-style: none;">
+                                        <div class="table-responsive" style="background: #26292b;">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr style="border-color: rgba(251,251,251,0);">
+                                                        <th style="font-family: Roboto, sans-serif;color: rgb(255,255,255);">#</th>
+                                                        <th class="text-center" style="font-family: Roboto, sans-serif;color: rgb(255,255,255);">Patient Name</th>
+                                                        <th class="text-center" style="font-family: Roboto, sans-serif;color: rgb(255,255,255);">Gender</th>
+                                                        <th class="text-center" style="font-family: Roboto, sans-serif;padding-left: 0px;padding-right: 0px;color: rgb(255,255,255);">Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody style="border-color: rgba(45,45,45,0);">
+                                                    <tr>
+                                                        <td style="font-size: 17px;font-family: Roboto, sans-serif;color: rgb(255,255,255);">1</td>
+                                                        <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Ali</td>
+                                                        <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-male" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(0,30,255);font-family: Roboto, sans-serif;">
+                                                                <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
+                                                            </svg></td>
+                                                        <td class="text-center" style="padding-right: 0px;padding-left: 0px;"><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;text-align: center;">DETAILS</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">2</td>
+                                                        <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Bilal</td>
+                                                        <td class="text-center"><span style="color: rgb(0, 30, 255);"> </span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-male" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(0,30,255);font-family: Roboto, sans-serif;">
+                                                                <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
+                                                            </svg></td>
+                                                        <td class="text-center" style="padding-left: 0px;margin-right: 0px;padding-right: 0px;"><span style="color: rgb(0, 30, 255);"> </span><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;text-align: center;">DETAILS</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">3</td>
+                                                        <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Iqra</td>
+                                                        <td class="text-center"><span style="color: rgb(0, 30, 255);"> </span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-female" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(255,0,230);font-family: Roboto, sans-serif;">
+                                                                <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"></path>
+                                                            </svg></td>
+                                                        <td class="text-center" style="padding-left: 0px;padding-right: 0px;"><span style="color: rgb(0, 30, 255);"> </span><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;">DETAILS</button></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
                                 </div>
