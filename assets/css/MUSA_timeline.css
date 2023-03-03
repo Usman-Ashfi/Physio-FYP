@@ -1,0 +1,245 @@
+img {
+  vertical-align: middle;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.img-rounded {
+  border-radius: 3px;
+}
+
+.testimonial-centered {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.testimonial-centered:before, .testimonial-centered:after {
+  content: " ";
+  display: table;
+}
+
+.testimonial-centered:after {
+  clear: both;
+}
+
+.testimonial-centered:before, .testimonial-centered:after {
+  content: " ";
+  display: table;
+}
+
+.testimonial-centered:after {
+  clear: both;
+}
+
+.testimonial-centered:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 4px;
+  background: #f5f5f6;
+  left: 50%;
+  top: 20px;
+  bottom: 20px;
+  margin-left: -4px;
+}
+
+.testimonial-centered .testimonial-entry {
+  position: relative;
+  width: 50%;
+  float: right;
+  margin-bottom: 70px;
+  clear: both;
+}
+
+.testimonial-centered .testimonial-entry:before, .testimonial-centered .testimonial-entry:after {
+  content: " ";
+  display: table;
+}
+
+.testimonial-centered .testimonial-entry:after {
+  clear: both;
+}
+
+.testimonial-centered .testimonial-entry:before, .testimonial-centered .testimonial-entry:after {
+  content: " ";
+  display: table;
+}
+
+.testimonial-centered .testimonial-entry:after {
+  clear: both;
+}
+
+.testimonial-centered .testimonial-entry.begin {
+  margin-bottom: 0;
+}
+
+.testimonial-centered .testimonial-entry.left-aligned {
+  float: left;
+}
+
+.testimonial-centered .testimonial-entry.left-aligned .testimonial-entry-inner {
+  margin-left: 0;
+  margin-right: -18px;
+}
+
+.testimonial-centered .testimonial-entry.left-aligned .testimonial-entry-inner .testimonial-time {
+  left: auto;
+  right: -100px;
+  text-align: left;
+}
+
+.testimonial-centered .testimonial-entry.left-aligned .testimonial-entry-inner .testimonial-icon {
+  float: right;
+}
+
+.testimonial-centered .testimonial-entry.left-aligned .testimonial-entry-inner .testimonial-label {
+  margin-left: 0;
+  margin-right: 70px;
+}
+
+.testimonial-centered .testimonial-entry.left-aligned .testimonial-entry-inner .testimonial-label:after {
+  left: auto;
+  right: 0;
+  margin-left: 0;
+  margin-right: -9px;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner {
+  position: relative;
+  margin-left: -22px;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner:before, .testimonial-centered .testimonial-entry .testimonial-entry-inner:after {
+  content: " ";
+  display: table;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner:after {
+  clear: both;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner:before, .testimonial-centered .testimonial-entry .testimonial-entry-inner:after {
+  content: " ";
+  display: table;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner:after {
+  clear: both;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-time {
+  position: absolute;
+  left: -100px;
+  text-align: right;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-time > span {
+  display: block;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-time > span:first-child {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-time > span:last-child {
+  font-size: 12px;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-icon {
+  background: #fff;
+  color: #737881;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-align: center;
+  -moz-box-shadow: 0 0 0 5px #f5f5f6;
+  -webkit-box-shadow: 0 0 0 5px #f5f5f6;
+  box-shadow: 0 0 0 5px #f5f5f6;
+  line-height: 40px;
+  font-size: 15px;
+  float: left;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-icon.bg-secondary {
+  background-color: #ee4749;
+  color: #fff;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-icon.bg-success {
+  background-color: #00a651;
+  color: #fff;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-icon.bg-info {
+  background-color: #21a9e1;
+  color: #fff;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-icon.bg-warning {
+  background-color: #fad839;
+  color: #fff;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-label {
+  position: relative;
+  background: #2e3239;
+  padding: 1.7em;
+  margin-left: 70px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 9px 9px 9px 0;
+  border-color: transparent #f5f5f6 transparent transparent;
+  left: 0;
+  top: 10px;
+  margin-left: -9px;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-label h2, .testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-label p {
+  color: #d5d5d5;
+  font-family: "Noto Sans",sans-serif;
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.428571429;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-label h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.testimonial-centered .testimonial-entry .testimonial-entry-inner .testimonial-label h2 a {
+  color: #1361f1;
+}
+
