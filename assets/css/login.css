@@ -12,7 +12,7 @@ a:hover {
 }
 
 .link:hover {
-  color: #ffeba7;
+  color: #4699bc;
 }
 
 p {
@@ -199,7 +199,6 @@ h6 span {
   padding: 0 30px;
   letter-spacing: 1px;
   display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-align-items: center;
   -moz-align-items: center;
@@ -209,10 +208,9 @@ h6 span {
   -moz-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  -ms-flex-pack: center;
   text-align: center;
   border: none;
-  background-color: #f9848e;
+  background-color: #4699bc;
   color: #102770;
   box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
 }
@@ -224,8 +222,8 @@ h6 span {
 }
 
 .btn:hover {
-  background-color: #102770;
-  color: #ffeba7;
+  background-color: #4063cf;
+  color: #d5d5d5;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 
