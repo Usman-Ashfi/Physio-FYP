@@ -3,10 +3,6 @@
   --curve: 40;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #fef8f8;
@@ -94,14 +90,6 @@ body {
   color: #6A515E;
 }
 
-.card__tagline {
-  display: block;
-  margin: 1em 0;
-  font-family: "MockFlowFont";
-  font-size: .8em;
-  color: #D7BDCA;
-}
-
 .card__status {
   font-size: .8em;
   color: #D7BDCA;
@@ -116,9 +104,5 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
-}
-
-#navtop {
-  /*background: #0094ff;*/
 }
 

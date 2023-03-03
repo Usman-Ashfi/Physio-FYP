@@ -12,17 +12,6 @@
   text-align: center;
 }
 
-.filter input {
-  margin: 30px;
-  width: 60%;
-  padding: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: none;
-  border-radius: 5px;
-  background: #eee;
-}
-
 * {
   outline: none;
 }
