@@ -1802,7 +1802,6 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
   background-size: cover;
 }
 
@@ -1970,6 +1969,7 @@ a:focus {
 }
 
 .sidebar {
+  border-right: solid;
   position: fixed-left;
   width: 6.5rem;
   min-height: 100vh;
