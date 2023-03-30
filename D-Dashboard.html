@@ -15,11 +15,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/Side-By-Side-Section-sideBySide.css">
     <link rel="stylesheet" href="assets/css/Appointments%20card.css">
@@ -91,8 +89,8 @@
         </div>
         <div class="d-flex flex-column" id="content-wrapper" style="background: rgba(25,27,27,0);color: rgb(255,255,255);">
             <div id="content">
-                <nav class="navbar navbar-light navbar-expand mb-4 topbar static-top" style="border-radius: 0px;background: rgba(25,27,27,0);border-style: none;border-color: rgba(255,255,255,0);">
-                    <div class="container-fluid"><button id="sidebarToggleTop" class="rounded-circle me-3" type="button" style="border-style: none;"><i class="fas fa-bars" style="color: rgb(255,255,255);"></i></button>
+                <nav class="navbar navbar-light navbar-expand mb-4 topbar static-top" style="border-radius: 0px;border-style: none;border-color: rgba(255,255,255,0);">
+                    <div class="container-fluid">
                         <div class="container pb-5 pt-5">
                             <div class="col-md-9 col-xl-8 ml-auto mr-auto">
                                 <form>
@@ -196,13 +194,13 @@
                 </section>
                 <section data-aos="fade-up">
                     <div class="container">
-                        <div class="row" style="margin-bottom: 8px;">
-                            <div class="col-md-6" style="margin-bottom: 0px;">
-                                <div class="card" style="border-radius: 10px;border-color: rgba(0,123,255,0);height: 324.521px;margin-bottom: 7px;margin-top: 7px;background: #f6f9fb;">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="card" style="border-radius: 10px;border-color: rgba(0,123,255,0);height: 324.521px;margin-bottom: 7px;margin-top: 7px;background: rgba(46,50,57,0);">
                                     <div class="card-body shadow-sm" style="background: rgba(255,255,255,0);">
                                         <div class="row text-start d-xl-flex align-items-xl-center" style="background: #4063cf;border-radius: 10px;height: 30.3958px;">
                                             <div class="col text-center d-sm-flex d-xl-flex justify-content-sm-center align-items-sm-center">
-                                                <h1 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">Appointments</h1>
+                                                <h2 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">Appointments</h2>
                                             </div>
                                         </div>
                                         <div class="card" style="border-style: none;background: #f6f9fb;">
@@ -247,16 +245,65 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="card" style="border-radius: 10px;border-style: none;margin-bottom: 7px;margin-top: 7px;background: rgba(46,50,57,0);">
+                                    <div class="card-body shadow-sm" style="border-radius: 0;">
+                                        <div class="row text-start d-xl-flex align-items-xl-center" style="background: #4063cf;border-radius: 10px;height: 30.3958px;">
+                                            <div class="col d-sm-flex d-xl-flex justify-content-center align-items-sm-center">
+                                                <h2 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">Records</h2>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="border-style: none;background: #f6f9fb;">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr style="border-color: rgba(251,251,251,0);">
+                                                            <th>#</th>
+                                                            <th class="text-center">Patient Name</th>
+                                                            <th class="text-center">Gender</th>
+                                                            <th class="text-center" style="padding-left: 0px;padding-right: 0px;">Details</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody style="border-color: rgba(45,45,45,0);">
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td class="text-center">Ali</td>
+                                                            <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-male" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(0,30,255);font-family: Roboto, sans-serif;">
+                                                                    <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
+                                                                </svg></td>
+                                                            <td class="text-center" style="padding-right: 0px;padding-left: 0px;"><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;text-align: center;">DETAILS</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td class="text-center">Bilal</td>
+                                                            <td class="text-center"><span style="color: rgb(0, 30, 255);"> </span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-male" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(0,30,255);font-family: Roboto, sans-serif;">
+                                                                    <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
+                                                                </svg></td>
+                                                            <td class="text-center" style="padding-left: 0px;margin-right: 0px;padding-right: 0px;"><span style="color: rgb(0, 30, 255);"> </span><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;text-align: center;">DETAILS</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td class="text-center">Iqra</td>
+                                                            <td class="text-center"><span style="color: rgb(0, 30, 255);"> </span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-female" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(255,0,230);font-family: Roboto, sans-serif;">
+                                                                    <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"></path>
+                                                                </svg></td>
+                                                            <td class="text-center" style="padding-left: 0px;padding-right: 0px;"><span style="color: rgb(0, 30, 255);"> </span><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;">DETAILS</button></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 flex-column">
-                                <div class="card" style="border-style: none;border-radius: 10px;height: 265px;margin-top: 7px;margin-bottom: 7px;background: #f6f9fb;">
+                            <div class="col-md-4">
+                                <div class="card" style="border-style: none;border-radius: 10px;background: rgba(46,50,57,0);">
                                     <div class="card-body" style="margin-bottom: 11px;">
                                         <div class="row text-start d-xl-flex align-items-xl-center" style="background: #4063cf;border-radius: 10px;height: 30.3958px;">
                                             <div class="col d-sm-flex d-xl-flex justify-content-center align-items-sm-center">
-                                                <h1 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">PAtients group</h1>
+                                                <h2 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">Patients group</h2>
                                             </div>
                                         </div>
-                                        <div style="margin-bottom: 8px;margin-top: 8px;margin-left: 5px;margin-right: 5px;">
+                                        <div style="background: #f6f9fb;margin-top: 30px;border-radius: 10px;padding-right: 10px;">
                                             <div class="row">
                                                 <div class="col-xl-1" style="padding-right: 0px;padding-left: 0px;">
                                                     <picture style="padding-top: 0px;"><img src="assets/img/L.png" style="width: 50px;height: 50px;" width="356" height="514"></picture>
@@ -265,7 +312,7 @@
                                                 <div class="col text-end" style="padding-top: 13px;padding-bottom: 13px;"><span style="color: #2d2d2d;">5 Patients</span></div>
                                             </div>
                                         </div>
-                                        <div style="margin-bottom: 8px;margin-top: 8px;margin-left: 5px;margin-right: 5px;">
+                                        <div style="background: #f6f9fb;margin-top: 30px;border-radius: 10px;padding-right: 10px;">
                                             <div class="row">
                                                 <div class="col-xl-1" style="padding-right: 0px;padding-left: 0px;">
                                                     <picture style="padding-top: 0px;"><img src="assets/img/S.png" style="width: 50px;height: 50px;" width="356" height="514"></picture>
@@ -274,7 +321,34 @@
                                                 <div class="col text-end" style="padding-top: 13px;padding-bottom: 13px;"><span style="color: #2d2d2d;">8 Patients</span></div>
                                             </div>
                                         </div>
-                                        <div style="margin-bottom: 8px;margin-top: 8px;margin-left: 5px;margin-right: 5px;">
+                                        <div style="background: #f6f9fb;margin-top: 30px;border-radius: 10px;padding-right: 10px;">
+                                            <div class="row">
+                                                <div class="col-xl-1" style="padding-right: 0px;padding-left: 0px;">
+                                                    <picture style="padding-top: 0px;"><img src="assets/img/L.png" style="width: 50px;height: 50px;" width="356" height="514"></picture>
+                                                </div>
+                                                <div class="col text-center" style="margin-top: 0px;padding-top: 13px;padding-bottom: 13px;padding-right: 0px;padding-left: 0px;margin-left: 0px;"><span class="fw-bold" style="color: #2d2d2d;font-family: Roboto, sans-serif;font-weight: bold;margin-left: 16px;margin-right: 15px;font-size: 17px;padding-top: 0px;margin-bottom: 2px;margin-top: 0px;">Left Hip Joint</span></div>
+                                                <div class="col text-end" style="padding-top: 13px;padding-bottom: 13px;"><span style="color: #2d2d2d;">5 Patients</span></div>
+                                            </div>
+                                        </div>
+                                        <div style="background: #f6f9fb;margin-top: 30px;border-radius: 10px;padding-right: 10px;">
+                                            <div class="row">
+                                                <div class="col-xl-1" style="padding-right: 0px;padding-left: 0px;">
+                                                    <picture style="padding-top: 0px;"><img src="assets/img/L.png" style="width: 50px;height: 50px;" width="356" height="514"></picture>
+                                                </div>
+                                                <div class="col text-center" style="margin-top: 0px;padding-top: 13px;padding-bottom: 13px;padding-right: 0px;padding-left: 0px;margin-left: 0px;"><span class="fw-bold" style="color: #2d2d2d;font-family: Roboto, sans-serif;font-weight: bold;margin-left: 16px;margin-right: 15px;font-size: 17px;padding-top: 0px;margin-bottom: 2px;margin-top: 0px;">Left Hip Joint</span></div>
+                                                <div class="col text-end" style="padding-top: 13px;padding-bottom: 13px;"><span style="color: #2d2d2d;">5 Patients</span></div>
+                                            </div>
+                                        </div>
+                                        <div style="background: #f6f9fb;margin-top: 30px;border-radius: 10px;padding-right: 10px;">
+                                            <div class="row">
+                                                <div class="col-xl-1" style="padding-right: 0px;padding-left: 0px;">
+                                                    <picture style="padding-top: 0px;"><img src="assets/img/S.png" style="width: 50px;height: 50px;" width="356" height="514"></picture>
+                                                </div>
+                                                <div class="col text-center" style="margin-top: 0px;padding-top: 13px;padding-bottom: 13px;padding-right: 0px;padding-left: 0px;margin-left: 0px;color: rgb(255,255,255);"><span class="fw-bold" style="color: #2d2d2d;font-family: Roboto, sans-serif;font-weight: bold;margin-left: 16px;margin-right: 15px;font-size: 17px;padding-top: 0px;margin-bottom: 2px;margin-top: 0px;">Spinal Nerve</span></div>
+                                                <div class="col text-end" style="padding-top: 13px;padding-bottom: 13px;"><span style="color: #2d2d2d;">8 Patients</span></div>
+                                            </div>
+                                        </div>
+                                        <div style="background: #f6f9fb;margin-top: 30px;border-radius: 10px;padding-right: 10px;">
                                             <div class="row">
                                                 <div class="col-xl-1" style="padding-right: 0px;padding-left: 0px;">
                                                     <picture style="padding-top: 0px;"><img src="assets/img/L.png" style="width: 50px;height: 50px;" width="356" height="514"></picture>
@@ -289,70 +363,15 @@
                         </div>
                     </div>
                 </section>
-                <section data-aos="fade-up">
-                    <div class="container">
-                        <div class="col-md-6">
-                            <div class="card" style="border-radius: 10px;border-style: none;margin-bottom: 7px;margin-top: 7px;background: #f6f9fb;">
-                                <div class="card-body shadow-sm" style="border-radius: 0;">
-                                    <div class="row text-start d-xl-flex align-items-xl-center" style="background: #4063cf;border-radius: 10px;height: 30.3958px;">
-                                        <div class="col d-sm-flex d-xl-flex justify-content-center align-items-sm-center">
-                                            <h1 style="font-size: 17px;font-family: Raleway, sans-serif;margin-bottom: -1px;">Records</h1>
-                                        </div>
-                                    </div>
-                                    <div class="card" style="border-style: none;background: #f6f9fb;">
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr style="border-color: rgba(251,251,251,0);">
-                                                        <th>#</th>
-                                                        <th class="text-center">Patient Name</th>
-                                                        <th class="text-center">Gender</th>
-                                                        <th class="text-center" style="padding-left: 0px;padding-right: 0px;">Details</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody style="border-color: rgba(45,45,45,0);">
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td class="text-center">Ali</td>
-                                                        <td class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-male" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(0,30,255);font-family: Roboto, sans-serif;">
-                                                                <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
-                                                            </svg></td>
-                                                        <td class="text-center" style="padding-right: 0px;padding-left: 0px;"><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;text-align: center;">DETAILS</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td class="text-center">Bilal</td>
-                                                        <td class="text-center"><span style="color: rgb(0, 30, 255);"> </span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-male" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(0,30,255);font-family: Roboto, sans-serif;">
-                                                                <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
-                                                            </svg></td>
-                                                        <td class="text-center" style="padding-left: 0px;margin-right: 0px;padding-right: 0px;"><span style="color: rgb(0, 30, 255);"> </span><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;text-align: center;">DETAILS</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td class="text-center">Iqra</td>
-                                                        <td class="text-center"><span style="color: rgb(0, 30, 255);"> </span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gender-female" style="padding-right: 0px;margin-right: 1px;width: 54px;color: rgb(255,0,230);font-family: Roboto, sans-serif;">
-                                                                <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"></path>
-                                                            </svg></td>
-                                                        <td class="text-center" style="padding-left: 0px;padding-right: 0px;"><span style="color: rgb(0, 30, 255);"> </span><button class="btn btn-primary btn-sm text-center float-none" id="Detailbtn" type="button" style="padding-top: 0px;padding-right: 13px;padding-left: 13px;padding-bottom: 0px;width: 64px;height: 32px;font-size: 9px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;margin-top: 0px;font-family: Roboto, sans-serif;">DETAILS</button></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <section>
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <div class="card" style="border-radius: 10px;border-color: rgba(255,255,255,0);margin-top: 7px;margin-bottom: 7px;background: #f6f9fb;">
+                                <div class="card" style="border-radius: 10px;border-color: rgba(255,255,255,0);margin-top: 7px;margin-bottom: 7px;background: rgba(46,50,57,0);">
                                     <div class="card-body shadow-sm" style="border-radius: 10px;border-color: rgba(255,255,255,0);">
                                         <div class="card" style="border-color: rgba(255,255,255,0);background: #f6f9fb;">
-                                            <div class="card-header text-center" style="background: rgb(64,99,207);border-radius: 10px;border-style: none;">
-                                                <h3 class="text-light d-sm-flex justify-content-sm-center" style="font-family: Raleway, sans-serif;font-size: 17px;color: var(--bs-card-bg);">MESSAGES</h3>
+                                            <div class="card-header text-center" style="background: rgb(64,99,207);border-radius: 10px;border-style: none;height: 30.3958px;padding-bottom: 0px;padding-top: 6px;">
+                                                <h2 class="text-light d-sm-flex justify-content-sm-center" style="font-family: Raleway, sans-serif;font-size: 17px;color: var(--bs-card-bg);margin-bottom: 0px;margin-top: 0px;">MESSAGES</h2>
                                             </div>
                                             <div class="card-body" style="height:233px;">
                                                 <ul class="list-group">
