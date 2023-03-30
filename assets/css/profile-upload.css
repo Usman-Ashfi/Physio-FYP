@@ -23,22 +23,6 @@
   border-color: #2ca8ff;
 }
 
-.content.ct-wizard-green .picture:hover {
-  border-color: #05ae0e;
-}
-
-.content.ct-wizard-blue .picture:hover {
-  border-color: #3472f7;
-}
-
-.content.ct-wizard-orange .picture:hover {
-  border-color: #ff9500;
-}
-
-.content.ct-wizard-red .picture:hover {
-  border-color: #ff3b30;
-}
-
 .picture input[type="file"] {
   cursor: pointer;
   display: block;

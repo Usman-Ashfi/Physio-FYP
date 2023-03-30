@@ -101,48 +101,6 @@
   padding-bottom: 40px;
 }
 
-.multi_step_form #msform fieldset .input-group .custom-file {
-  width: 100%;
-  height: auto;
-}
-
-.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label {
-  width: 168px;
-  border-radius: 5px;
-  cursor: pointer;
-  font: 700 14px/40px "Roboto", sans-serif;
-  border: 1px solid #99a2a8;
-  text-align: center;
-  transition: all 300ms linear 0s;
-  color: #5f6771;
-}
-
-.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label i {
-  font-size: 20px;
-  padding-right: 10px;
-}
-
-.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:hover, .multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:focus {
-  background: #5cb85c;
-  border-color: #5cb85c;
-  color: #fff;
-}
-
-.multi_step_form #msform fieldset .input-group .custom-file input {
-  display: none;
-}
-
-.multi_step_form #msform fieldset .file_added {
-  text-align: left;
-  padding-left: 190px;
-  padding-bottom: 60px;
-}
-
-.multi_step_form #msform fieldset .file_added li {
-  font: 400 15px/28px "Roboto", sans-serif;
-  color: #5f6771;
-}
-
 .multi_step_form #msform #progressbar {
   margin-bottom: 30px;
   overflow: hidden;
