@@ -8,7 +8,7 @@ a:hover {
 }
 
 .link {
-  color: #c4c3ca;
+  color: #3b9be1;
 }
 
 .link:hover {
@@ -19,10 +19,6 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
-}
-
-h4 {
-  font-weight: 600;
 }
 
 h6 span {
@@ -56,7 +52,7 @@ h6 span {
   padding: 0;
   margin: 10px auto;
   cursor: pointer;
-  background-color: #2e3239;
+  background-color: #d8e1e7;
 }
 
 .checkbox:checked + label:before, .checkbox:not(:checked) + label:before {
@@ -66,7 +62,7 @@ h6 span {
   height: 36px;
   border-radius: 50%;
   color: #ffffff;
-  background-color: #102770;
+  background-color: #4699bc;
   font-family: 'unicons';
   content: '\eb4f';
   z-index: 20;
@@ -107,7 +103,7 @@ h6 span {
 .card-front, .card-back {
   width: 100%;
   height: 100%;
-  background-color: #2e3239;
+  background-color: #d8e1e7;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -162,11 +158,12 @@ h6 span {
   letter-spacing: 0.5px;
   outline: none;
   color: #c4c3ca;
-  background-color: #1f2029;
+  background-color: rgb(255,255,255);
   border: none;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+  border-radius: 10px;
 }
 
 .form-style:focus, .form-style:active {
@@ -211,7 +208,7 @@ h6 span {
   text-align: center;
   border: none;
   background-color: #4699bc;
-  color: #102770;
+  color: #f9f9f9;
   box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
 }
 
@@ -222,7 +219,7 @@ h6 span {
 }
 
 .btn:hover {
-  background-color: #4063cf;
+  background-color: #1ca2dc;
   color: #d5d5d5;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
