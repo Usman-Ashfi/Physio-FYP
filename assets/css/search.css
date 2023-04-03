@@ -18,7 +18,7 @@
   outline: none;
   border-radius: 25px;
   transition: all .5s ease-in-out;
-  background-color: rgba(34,166,179,0);
+  background-color: rgba(17,205,224,0);
   padding-right: 40px;
   color: #fff;
 }
@@ -53,5 +53,9 @@
   background-color: transparent;
   border-bottom: 1px solid rgba(255,255,255,.5);
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+::placeholder {
+  color: #d8e1e7;
 }
 
