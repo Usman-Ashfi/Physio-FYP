@@ -1,0 +1,28 @@
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-box-shadow: 3px 5px 17px -4px #777777;
+  box-shadow: 3px 5px 17px -4px #777777;
+}
+
+.ratings i {
+  color: #4063cf;
+}
+
+.apointment button {
+  border-radius: 20px;
+  background-color: #eee;
+  color: #000;
+  border-color: #eee;
+  font-size: 13px;
+}
+
+#bkap:hover {
+  background-color: #4063cf;
+}
+
