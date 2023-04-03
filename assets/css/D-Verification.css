@@ -77,7 +77,7 @@
 }
 
 .multi_step_form #msform fieldset .form-control:hover, .multi_step_form #msform fieldset .form-control:focus, .multi_step_form #msform fieldset .product_select:hover, .multi_step_form #msform fieldset .product_select:focus {
-  border-color: #5cb85c;
+  border-color: #4063cf;
 }
 
 .multi_step_form #msform fieldset .done_text {
@@ -90,7 +90,7 @@
   line-height: 36px;
   font-size: 22px;
   margin-bottom: 10px;
-  background: #5cb85c;
+  background: #4063cf;
   display: inline-block;
   border-radius: 50%;
   color: #ffffff;
@@ -168,7 +168,7 @@
   cursor: pointer;
   min-width: 130px;
   font: 700 14px/40px "Roboto", sans-serif;
-  border: 1px solid #5cb85c;
+  border: 1px solid #4063cf;
   margin: 0 5px;
   text-transform: uppercase;
   display: inline-block;
