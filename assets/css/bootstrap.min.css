@@ -527,10 +527,6 @@ textarea.form-control-sm {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
 }
 
-.form-check-input:checked[type=radio] {
-  /*background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");*/
-}
-
 .input-group {
   position: relative;
   display: flex;
@@ -1874,19 +1870,6 @@ a:focus {
 
 .topbar {
   height: 4.375rem;
-}
-
-.topbar #sidebarToggleTop {
-  height: 2.5rem;
-  width: 2.5rem;
-}
-
-.topbar #sidebarToggleTop:hover {
-  background-color: #eaecf4;
-}
-
-.topbar #sidebarToggleTop:active {
-  background-color: #dddfeb;
 }
 
 .topbar .nav-item .nav-link {
