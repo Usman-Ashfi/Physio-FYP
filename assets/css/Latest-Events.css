@@ -4,15 +4,16 @@
 }
 
 .blog-home2 h1, .blog-home2 h2, .blog-home2 h3, .blog-home2 h4, .blog-home2 h5, .blog-home2 h6 {
-  color: #d5d5d5;
+  color: #2d2d2d;
 }
 
 .blog-home2 .font-weight-medium {
+  text-align: center;
   font-weight: 500;
 }
 
 .blog-home2 .subtitle {
-  color: #8d97ad;
+  color: #2d2d2d;
   line-height: 24px;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .blog-home2 a.link {
-  color: #d5d5d5;
+  color: #2d2d2d;
 }
 
 .blog-home2 a.link:hover {

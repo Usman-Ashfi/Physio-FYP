@@ -16,28 +16,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/aos.min.css">
-    <link rel="stylesheet" href="assets/css/Side-By-Side-Section-sideBySide.css">
     <link rel="stylesheet" href="assets/css/appointment%20card.css">
-    <link rel="stylesheet" href="assets/css/Bootstrap-Chat.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/checkbox.css">
-    <link rel="stylesheet" href="assets/css/Countries-Select-Menu.css">
-    <link rel="stylesheet" href="assets/css/D-Verification.css">
-    <link rel="stylesheet" href="assets/css/Filter.css">
-    <link rel="stylesheet" href="assets/css/Landing-Page---Parallax-Background---Logo-Heading-ButtonGIF.css">
-    <link rel="stylesheet" href="assets/css/Latest-Blog.css">
-    <link rel="stylesheet" href="assets/css/Latest-Events.css">
-    <link rel="stylesheet" href="assets/css/MUSA_timeline.css">
-    <link rel="stylesheet" href="assets/css/profile-upload.css">
-    <link rel="stylesheet" href="assets/css/profile.css">
-    <link rel="stylesheet" href="assets/css/Reviews---Manage-reviews-and-ratings_v1.css">
-    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
     <link rel="stylesheet" href="assets/css/search.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body style="margin-top: 0px;background: rgba(255,255,255,0);">
+<body style="margin-top: 0px;">
     <div id="wrapper">
         <div class="row">
             <div class="col">
@@ -90,90 +79,98 @@
                 </nav>
             </div>
         </div>
-        <div class="d-flex flex-column" id="content-wrapper" style="background: #191b1b;">
-            <div id="content">
-                <nav class="navbar navbar-light navbar-expand shadow mb-4 topbar static-top" style="border-radius: 0px;border-style: none;">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col" style="padding-left: 0px;padding-right: 1px;">
-                                <div class="dropdown">
-                                    <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">
-                                            <picture style="border-width: 50px;"><img width="100" height="80" style="width: 32px;height: 32px;border-radius: 50px;" src="assets/img/user.jpg"></picture>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in"><a class="d-flex align-items-center dropdown-item" href="D-Profile.html">
-                                                <div class="me-3">
-                                                    <div class="bg-primary icon-circle"><i class="icon ion-android-person text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">Accounts</span></div>
-                                            </a><a class="d-flex align-items-center dropdown-item" href="D-Chats.html">
-                                                <div class="me-3">
-                                                    <div class="bg-primary icon-circle"><i class="icon ion-email text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">Chats</span></div>
-                                            </a><a class="d-flex align-items-center dropdown-item" href="D-ProfileEdit.html">
-                                                <div class="me-3">
-                                                    <div class="bg-primary icon-circle"><i class="icon ion-android-settings text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">Settings</span></div>
-                                            </a><a class="d-flex align-items-center dropdown-item" href="D-login.html">
-                                                <div class="me-3">
-                                                    <div class="bg-primary icon-circle"><i class="icon ion-log-out text-white"></i></div>
-                                                </div>
-                                                <div><span class="small text-gray-500">Log Out</span></div>
-                                            </a></div>
-                                    </div>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <nav class="navbar navbar-light navbar-expand mb-4 topbar static-top" style="border-radius: 0px;border-style: none;border-color: rgba(255,255,255,0);">
+                <div class="container-fluid">
+                    <div class="col-md-9 col-xl-8 ml-auto mr-auto">
+                        <form>
+                            <div class="d-inline-flex align-items-center form-row" style="padding-top: 14px;">
+                                <div class="d-inline-flex col-sm form-group mb-3"><input class="form-control form-control ps-4 pe-4 rounded-pill" type="text" name="search" placeholder="Search..." style="width: 440.729px;margin-right: 10px;margin-left: 10px;border-color: rgba(52,72,225,0.53);border-top-color: rgb(133,;border-right-color: 135,;border-bottom-color: 150);border-left-color: 135,;"></div>
+                                <div class="col-sm-auto text-end form-group mb-3"><button class="btn btn-primary ps-4 pe-4 rounded-pill" type="submit"><i class="fa fa-search"></i></button></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="padding-left: 0px;padding-right: 1px;">
+                            <div class="dropdown">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">
+                                        <picture style="border-width: 50px;"><img width="100" height="80" style="width: 32px;height: 32px;border-radius: 50px;" src="assets/img/user.jpg"></picture>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in"><a class="d-flex align-items-center dropdown-item" href="U-Profile.html">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="icon ion-android-person text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">Accounts</span></div>
+                                        </a><a class="d-flex align-items-center dropdown-item" href="U-Chats.html">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="icon ion-email text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">Chats</span></div>
+                                        </a><a class="d-flex align-items-center dropdown-item" href="U-Profile.html">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="icon ion-android-settings text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">Settings</span></div>
+                                        </a><a class="d-flex align-items-center dropdown-item">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="icon ion-log-out text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">Log Out</span></div>
+                                        </a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </nav>
+                </div>
+            </nav>
+            <div id="content">
                 <div class="container-fluid" data-aos="fade-up">
                     <div class="row">
                         <div class="col">
-                            <div class="card" style="background: rgb(38,41,43);border-color: rgba(255,255,255,0);">
-                                <div class="card-body shadow-sm" style="border-radius: 10px;background: rgba(255,255,255,0);border-color: rgba(254,254,254,0);">
-                                    <div class="row">
-                                        <div class="col">
+                            <div class="card">
+                                <div class="card-body shadow-sm">
+                                    <div class="row d-xl-flex justify-content-xl-center align-items-xl-center" style="background: var(--bs-blue);border-radius: 10px;">
+                                        <div class="col-auto">
                                             <h1 style="font-size: 17px;font-family: Raleway, sans-serif;">PRESCRIPTIONS</h1>
                                         </div>
-                                        <div class="col">
+                                        <div class="col-auto">
                                             <div class="float-start float-md-end mt-5 mt-md-0 search-area">
                                                 <div class="search-box"><button class="btn-search"><i class="fas fa-search"></i></button><input type="text" class="input-search" style="color: var(--bs-gray-900);font-size: 16px;font-family: Roboto, sans-serif;" placeholder="Type to Search..."></div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card" style="background: #191b1b;border-style: none;">
-                                        <div class="table-responsive" style="background: #26292b;">
+                                    <div class="card">
+                                        <div class="table-responsive">
                                             <table class="table">
                                                 <thead>
                                                     <tr>
-                                                        <th class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">#</th>
-                                                        <th class="text-center" style="font-family: Roboto, sans-serif;color: rgb(255,255,255);font-size: 17px;">Doctor</th>
-                                                        <th class="text-center" style="color: rgb(255,255,255);">Date&nbsp;</th>
-                                                        <th class="text-center" style="color: rgb(255,255,255);">Diseases</th>
-                                                        <th class="text-center" style="color: rgb(255,255,255);">View</th>
+                                                        <th class="text-center">#</th>
+                                                        <th class="text-center">Doctor</th>
+                                                        <th class="text-center">Date&nbsp;</th>
+                                                        <th class="text-center">Diseases</th>
+                                                        <th class="text-center">View</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td class="text-center" style="font-size: 17px;font-family: Roboto, sans-serif;color: rgb(255,255,255);">1</td>
-                                                        <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Ali</td>
-                                                        <td class="text-center" style="color: rgb(255,255,255);">27-Nov-2022&nbsp;</td>
-                                                        <td class="text-center" style="color: rgb(255,255,255);">Joint</td>
+                                                        <td class="text-center">1</td>
+                                                        <td class="text-center">Ali</td>
+                                                        <td class="text-center">27-Nov-2022&nbsp;</td>
+                                                        <td class="text-center">Joint</td>
                                                         <td class="text-center" style="color: rgb(255,255,255);"><button class="btn btn-primary" type="button">Show</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">2</td>
-                                                        <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Bilal</td>
-                                                        <td class="text-center" style="color: rgb(255,255,255);">12-Dec-2022</td>
-                                                        <td class="text-center" style="color: rgb(255,255,255);">Spinal</td>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-center">Bilal</td>
+                                                        <td class="text-center">12-Dec-2022</td>
+                                                        <td class="text-center">Spinal</td>
                                                         <td class="text-center" style="color: rgb(255,255,255);"><button class="btn btn-primary" type="button">Show</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="text-center" style="font-size: 17px;font-family: Roboto, sans-serif;color: rgb(255,255,255);">3</td>
-                                                        <td class="text-center" style="font-family: Roboto, sans-serif;font-size: 17px;color: rgb(255,255,255);">Iqra</td>
-                                                        <td class="text-center" style="color: rgb(255,255,255);">19-Dec-2022</td>
-                                                        <td class="text-center" style="color: rgb(255,255,255);">Muscle</td>
+                                                        <td class="text-center">3</td>
+                                                        <td class="text-center">Iqra</td>
+                                                        <td class="text-center">19-Dec-2022</td>
+                                                        <td class="text-center">Muscle</td>
                                                         <td class="text-center" style="color: rgb(255,255,255);"><button class="btn btn-primary" type="button">Show</button></td>
                                                     </tr>
                                                 </tbody>
@@ -196,9 +193,6 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/D-verification.js"></script>
     <script src="https://djpsoftwarecdn.azureedge.net/reviewjs-v1/review.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/upload%20image%20preview.js"></script>
     <script src="assets/js/upload-profile.js"></script>
 </body>
 
