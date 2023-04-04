@@ -702,18 +702,10 @@ textarea.form-control-sm {
   --bs-btn-border-radius: 0.25rem;
 }
 
-.fade {
-  transition: opacity .15s linear;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .fade {
     transition: none;
   }
-}
-
-.fade:not(.show) {
-  opacity: 0;
 }
 
 .collapse:not(.show) {
