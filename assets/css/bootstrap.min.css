@@ -989,6 +989,7 @@ textarea.form-control-sm {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
+  border-radius: 15px;
 }
 
 .card-title {
