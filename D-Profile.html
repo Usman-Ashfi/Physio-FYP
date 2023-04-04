@@ -216,9 +216,9 @@
                                     <div class="row" style="margin-bottom: 12px;margin-top: 12px;">
                                         <div class="col-md-6">
                                             <div class="card shadow-sm" style="border-radius: 10px;border-style: none;margin-bottom: 10px;background: #f6f9fb;">
-                                                <div class="card-body" style="color: rgb(255,255,255);">
+                                                <div class="card-body">
                                                     <h3 class="card-title" style="color: #2d2d2d;">About Me</h3>
-                                                    <p class="text-start" style="padding-right: 0px;color: #2d2d2d;">Dr. Camila Smith is a Physiotherapist with 3 years of experience currently practicing at Novi med Specialist Clinic,Faisalabad. You can book an in-person appointment or an online video consultation with Dr. Maryam Rana through Physio.com or by calling at.<br></p>
+                                                    <p class="text-start">Dr. Camila Smith is a Physiotherapist with 3 years of experience currently practicing at Novi med Specialist Clinic,Faisalabad. You can book an in-person appointment or an online video consultation with Dr. Maryam Rana through Physio.com or by calling at.<br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -236,18 +236,39 @@
                             </div>
                         </div>
                     </div>
+                    <div class="modal fade" role="dialog" tabindex="-1" id="addReview">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3>Add Review</h3><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Please fill in the details below to submit your review. If you prefer your name not to be displayed you can check the 'Display anonymously' box.&nbsp;Thank you!&nbsp;<br></p>
+                                </div>
+                                <form style="margin: 18px;">
+                                    <div class="form-group mb-3"><label class="form-label form-label">First Name</label><input class="form-control form-control" type="text" id="firstName" maxlength="50"></div>
+                                    <div class="form-group mb-3"><label class="form-label form-label">Last Name</label><input class="form-control form-control" type="text" id="lastName" maxlength="50"></div>
+                                    <div class="form-group mb-3"><label class="form-label form-label">Email address</label><input class="form-control form-control" type="email" id="email"></div>
+                                    <div class="form-group mb-3"><label class="form-label">City</label><select class="form-select">
+                                            <option value="0" selected="">Please enter your rating</option>
+                                            <option value="1">*</option>
+                                            <option value="2">**</option>
+                                            <option value="3">***</option>
+                                            <option value="4">****</option>
+                                            <option value="5">*****</option>
+                                        </select></div>
+                                    <div class="form-group mb-3"><label class="form-label">Experience</label><input class="form-control" type="number"></div>
+                                    <div class="form-group mb-3"><label class="form-label">Contact Number</label><input class="form-control" type="tel" value="+92"></div>
+                                    <div class="form-group mb-3"><label class="form-label">Qualification</label><select class="form-select">
+                                            <option value="undefined">DPT</option>
+                                        </select></div>
+                                    <div class="form-group mb-3"><label class="form-label form-label">About you</label><textarea class="form-control"></textarea></div>
+                                </form>
+                                <div class="modal-footer"><button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" id="submitReview" type="button">Submit</button></div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" role="dialog" tabindex="-1" id="profile-edit">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header" style="background: #2e3239;color: #d5d5d5;border-style: none;">
-                    <h4 class="modal-title">Profile Edit</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body" style="background: #2e3239;color: #d5d5d5;border-style: none;"><input type="text" style="margin: 3px;color: #d5d5d5;background: #25282c;border-radius: 10px;border-style: none;padding-left: 7px;" name="First Name" placeholder="First Name"><input type="text" style="margin: 3px;color: #d5d5d5;background: #25282c;border-radius: 10px;border-style: none;padding-left: 8px;" name="Last Name" placeholder="Last Name"><input type="text" style="margin: 3px;color: #d5d5d5;background: #25282c;border-radius: 10px;border-style: none;padding-left: 8px;" name="Location" placeholder="Location"><input type="date" name="BirthDay" style="color: #d5d5d5;background: #25282c;border-radius: 10px;border-style: none;padding-left: 8px;margin-left: 0px;width: 205.333px;"><input type="text" style="margin: 3px;color: #d5d5d5;background: #25282c;border-radius: 10px;border-style: none;padding-left: 8px;" name="E-mail" placeholder="email"><input type="text" style="margin: 3px;color: #d5d5d5;background: #25282c;border-radius: 10px;border-style: none;padding-left: 8px;" name="E-mail" placeholder="Contact" inputmode="numeric"><textarea style="color: #d5d5d5;background: #25282c;border-radius: 10px;width: 206.667px;margin: 3px;border-style: none;"></textarea></div>
-                <div class="modal-footer" style="background: #2e3239;color: #d5d5d5;border-style: none;"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
             </div>
         </div>
     </div><script src="assets/bootstrap/js/bootstrap.min.js"></script><script src="assets/js/script.min.js"></script>

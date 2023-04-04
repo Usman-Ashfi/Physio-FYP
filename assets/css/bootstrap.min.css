@@ -990,6 +990,7 @@ textarea.form-control-sm {
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
   border-radius: 15px;
+  text-align: justify;
 }
 
 .card-title {
@@ -1489,10 +1490,6 @@ textarea.form-control-sm {
 
 .fw-bold {
   font-weight: 700 !important;
-}
-
-.text-start {
-  text-align: left !important;
 }
 
 .text-end {
