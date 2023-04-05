@@ -89,11 +89,6 @@ small, .small {
   font-size: 0.875em;
 }
 
-a {
-  color: var(--bs-link-color);
-  text-decoration: underline;
-}
-
 a:hover {
   color: var(--bs-link-hover-color);
 }
@@ -838,10 +833,6 @@ textarea.form-control-sm {
   color: var(--bs-navbar-brand-hover-color);
 }
 
-.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
-}
-
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
@@ -896,13 +887,6 @@ textarea.form-control-sm {
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: var(--bs-navbar-nav-link-padding-x);
-    padding-left: var(--bs-navbar-nav-link-padding-x);
   }
 }
 
