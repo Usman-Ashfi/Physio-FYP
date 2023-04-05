@@ -11,3 +11,7 @@
   height: 38px;
 }
 
+.dropdown-toggle::after {
+  content: none;
+}
+

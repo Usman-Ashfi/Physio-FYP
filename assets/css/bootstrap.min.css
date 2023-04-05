@@ -706,10 +706,6 @@ textarea.form-control-sm {
   display: none;
 }
 
-.dropup, .dropend, .dropdown, .dropstart, .dropup-center, .dropdown-center {
-  position: relative;
-}
-
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: .255em;
@@ -1724,10 +1720,6 @@ a:focus {
   outline: none;
 }
 
-.dropdown {
-  position: static;
-}
-
 .dropdown .dropdown-menu {
   width: calc(100% - 1.5rem);
   right: .75rem;
@@ -1752,12 +1744,6 @@ a:focus {
 .dropdown .dropdown-list .dropdown-item:active {
   background-color: #eaecf4;
   color: #3a3b45;
-}
-
-@media (min-width: 576px) {
-  .dropdown {
-    position: relative;
-  }
 }
 
 @media (min-width: 576px) {
