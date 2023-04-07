@@ -1,5 +1,6 @@
 #dh2 {
   color: white;
+  font-size: medium;
 }
 
 #homespan {
@@ -13,5 +14,9 @@
 
 .dropdown-toggle::after {
   content: none;
+}
+
+#patient-group::-webkit-scrollbar {
+  display: none;
 }
 

@@ -924,16 +924,13 @@ textarea.form-control-sm {
   min-width: 0;
   height: var(--bs-card-height);
   word-wrap: break-word;
-  background-color: #f6f9fb;
+  background-color: #d8e1e7;
   background-clip: border-box;
   border: none;
   border-radius: 10px;
 }
 
 .card-body {
-  flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  color: var(--bs-card-color);
   border-radius: 15px;
   text-align: justify;
 }
@@ -1059,7 +1056,7 @@ textarea.form-control-sm {
 
 .list-group-item-light {
   color: #636465;
-  background-color: #fefefe;
+  background-color: #d8e1e7;
 }
 
 .list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {
@@ -1250,10 +1247,6 @@ textarea.form-control-sm {
   box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15) !important;
 }
 
-.shadow-sm {
-  box-shadow: 0 .125rem .25rem 0 rgba(58,59,69,.2) !important;
-}
-
 .border-0 {
   border: 0 !important;
 }
@@ -1355,11 +1348,6 @@ textarea.form-control-sm {
   padding-left: 1rem !important;
 }
 
-.px-4 {
-  padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
-}
-
 .py-1 {
   padding-top: .25rem !important;
   padding-bottom: .25rem !important;
@@ -1373,11 +1361,6 @@ textarea.form-control-sm {
 .py-4 {
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
-}
-
-.py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
 }
 
 .pt-5 {
@@ -1406,10 +1389,6 @@ textarea.form-control-sm {
 
 .text-end {
   text-align: right !important;
-}
-
-.text-center {
-  text-align: center !important;
 }
 
 .text-uppercase, .sidebar .sidebar-heading, .dropdown .dropdown-menu .dropdown-header {
@@ -1645,7 +1624,7 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #f6f9fb;
+  background-color: #d8e1e7;
   background-size: cover;
 }
 
@@ -1786,7 +1765,7 @@ a:focus {
 
 @media (min-width: 768px) {
   .sidebar {
-    width: 14rem !important;
+    width: 11rem !important;
   }
 }
 

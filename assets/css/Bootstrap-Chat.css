@@ -3,11 +3,20 @@
 }
 
 .messages-box, .chat-box {
+  background-color: #d8e1e7;
   height: 510px;
   overflow-y: scroll;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.messages-box::-webkit-scrollbar {
+  display: none;
+}
+
+#chat-area::-webkit-scrollbar {
+  display: none;
 }
 

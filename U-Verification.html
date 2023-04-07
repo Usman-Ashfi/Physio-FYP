@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Bootstrap Multi Step Form with Progress Bar Example</title>
+    <link rel="icon" type="image/png" sizes="1080x1080" href="assets/img/My%20project-1.png">
+    <link rel="icon" type="image/png" sizes="1080x1080" href="assets/img/My%20project-1.png">
+    <link rel="icon" type="image/png" sizes="1080x1080" href="assets/img/My%20project-1.png">
+    <link rel="icon" type="image/png" sizes="1080x1080" href="assets/img/My%20project-1.png">
+    <link rel="icon" type="image/png" sizes="1080x1080" href="assets/img/My%20project-1.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/css/appointment%20card.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/profile-upload.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/U-Verification.css">
+</head>
+
+<body>
+    <main>
+        <article>
+            <section class="multi_step_form" style="border-style: none;border-radius: 10px;padding-top: 44px;">
+                <form id="msform" style="border-radius: 10px;">
+                    <div class="tittle">
+                        <h2>Verification Process</h2>
+                        <p>In order to use this service, you have to complete this verification process</p>
+                    </div>
+                    <ul class="d-inline-flex justify-content-xl-center" id="progressbar" style="width:705.531px;">
+                        <li class="active">Personal</li>
+                        <li>Verification</li>
+                    </ul>
+                    <fieldset>
+                        <div class="form-row">
+                            <div><div class="container">
+    <div class="picture-container">
+        <div class="picture">
+            <img src="https://lh3.googleusercontent.com/LfmMVU71g-HKXTCP_QWlDOemmWg4Dn1rJjxeEsZKMNaQprgunDTtEuzmcwUBgupKQVTuP0vczT9bH32ywaF7h68mF-osUSBAeM6MxyhvJhG6HKZMTYjgEv3WkWCfLB7czfODidNQPdja99HMb4qhCY1uFS8X0OQOVGeuhdHy8ln7eyr-6MnkCcy64wl6S_S6ep9j7aJIIopZ9wxk7Iqm-gFjmBtg6KJVkBD0IA6BnS-XlIVpbqL5LYi62elCrbDgiaD6Oe8uluucbYeL1i9kgr4c1b_NBSNe6zFwj7vrju4Zdbax-GPHmiuirf2h86eKdRl7A5h8PXGrCDNIYMID-J7_KuHKqaM-I7W5yI00QDpG9x5q5xOQMgCy1bbu3St1paqt9KHrvNS_SCx-QJgBTOIWW6T0DHVlvV_9YF5UZpN7aV5a79xvN1Gdrc7spvSs82v6gta8AJHCgzNSWQw5QUR8EN_-cTPF6S-vifLa2KtRdRAV7q-CQvhMrbBCaEYY73bQcPZFd9XE7HIbHXwXYA=s200-no" class="picture-src" id="wizardPicturePreview" title="">
+            <input type="file" id="wizard-picture" class="">
+        </div>
+         <h6 class="">Choose Profile Pic</h6>
+
+    </div>
+</div>
+</div>
+                            <div class="row" style="margin-bottom: 10px;margin-top: 10px;">
+                                <div class="col-md-6 text-start form-group"><span style="margin-left: 7px;color: #2e3239;">First Name</span><input class="form-control" type="text" style="height: 36px;border-radius: 10px;" required="" name="First Name"></div>
+                                <div class="col-md-6 text-start form-group"><span style="margin-left: 7px;color: #2e3239;">Last Name</span><input class="form-control" type="text" style="height: 36px;border-radius: 10px;" required="" name="Last Name"></div>
+                            </div>
+                            <div class="row" style="margin-bottom: 10px;margin-top: 10px;">
+                                <div class="col-md-6 text-start form-group"><span style="margin-left: 7px;color: #2e3239;">Location</span><select class="form-select" style="border-radius: 10px;" required="" name="Location">
+                                        <option value="">Faisalabad</option>
+                                    </select></div>
+                                <div class="col-md-6 text-start form-group"><span style="margin-left: 7px;color: #2e3239;">Date of Birth</span><input class="form-control" type="date" style="height: 35px;border-radius: 10px;" required="" name="Birthdate"></div>
+                            </div>
+                            <div class="row" style="margin-top: 10px;margin-bottom: 10px;">
+                                <div class="col-md-6 text-start form-group"><span style="margin-left: 7px;color: #2e3239;">E-mail</span><input class="form-control form-control" type="email" style="height: 36px;border-radius: 10px;" required="" name="Email"></div>
+                                <div class="col-md-6 text-start form-group"><span style="margin-left: 7px;color: #2e3239;">Contact Number</span><input class="form-control form-control" type="tel" style="height: 36px;border-radius: 10px;" required="" name="Contact" maxlength="11" minlength="11" value="+92"></div>
+                            </div>
+                        </div>
+                        <div class="done_text" style="padding-top: 0px;margin-top: 30px;margin-bottom: 30px;"><a href="#" class="don_icon" style="background: #4699bc;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
+                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                    <path d="M465.4 409.4l87.1-150.2-32-.3-55.1 95L259.2 0 23 407.4l32 .3L259.2 55.6zm-355.3-44.1h32.1l117.4-202.5L463 511.9l32.5.1-235.8-404.6z"></path>
+                                </svg></a></div><button type="button" class="action-button previous_button">Back</button><button type="button" class="next action-button">Continue</button>
+                    </fieldset>
+                    <fieldset>
+                        <h3>Verification</h3>
+                        <h6>Please upload your ID card Picture t Processed</h6>
+                        <div class="input-group"></div><span style="color: #2e3239;margin-bottom: 0px;">ID card&nbsp;</span>
+                        <div><!DOCTYPE html>
+<html lang="en">
+  <!-- Design by foolishdeveloper.com -->
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Progress Bar</title>
+ <style>
+  
+.center {
+    margin:8px;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+.form-input {
+  width:350px;
+  padding:20px;
+  background:rgba(170,175,219,0.45);
+    border-radius:10px;
+
+}
+.form-input input {
+  display:none;
+
+}
+.form-input label {
+  display:block;
+  width:45%;
+  height:45px;
+  margin-left: 25%;
+  line-height:50px;
+  text-align:center;
+  background:#1172c2;
+
+  color:#fff;
+  font-size:15px;
+  font-family:"Open Sans",sans-serif;
+  text-transform:Uppercase;
+  font-weight:600;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.form-input img {
+  width:50%;
+  display:none;
+
+  margin-bottom:30px;
+}
+
+   
+  </style>
+
+</head>
+<body>
+ <div class="center">
+  <div class="form-input">
+    <div class="preview">
+      <img id="file-ip-1-preview">
+    </div>
+    <label for="file-ip-1">Upload Image</label>
+    <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+    
+  </div>
+</div> 
+<script type="text/javascript">
+  function showPreview(event){
+  if(event.target.files.length > 0){
+    var src = URL.createObjectURL(event.target.files[0]);
+    var preview = document.getElementById("file-ip-1-preview");
+    preview.src = src;
+    preview.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>
+</div>
+                        <div class="done_text" style="padding-top: 0px;margin-top: 10px;margin-bottom: 30px;"><a href="#" class="don_icon" style="background: #4699bc;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 0 512 512" width="1em" height="1em" fill="currentColor">
+                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                    <path d="M287.6 54.2c-10.8-2.2-22.1-3.3-33.5-3.6V32.4c78.1 2.2 146.1 44 184.6 106.6l-15.8 9.1c-6.1-9.7-12.7-18.8-20.2-27.1l-18 15.5c-26-29.6-61.4-50.7-101.9-58.4l4.8-23.9zM53.4 322.4l23-7.7c-6.4-18.3-10-38.2-10-58.7s3.3-40.4 9.7-58.7l-22.7-7.7c3.6-10.8 8.3-21.3 13.6-31l-15.8-9.1C34 181 24.1 217.5 24.1 256s10 75 27.1 106.6l15.8-9.1c-5.3-10-9.7-20.3-13.6-31.1zM213.1 434c-40.4-8-75.8-29.1-101.9-58.7l-18 15.8c-7.5-8.6-14.4-17.7-20.2-27.4l-16 9.4c38.5 62.3 106.8 104.3 184.9 106.6v-18.3c-11.3-.3-22.7-1.7-33.5-3.6l4.7-23.8zM93.3 120.9l18 15.5c26-29.6 61.4-50.7 101.9-58.4l-4.7-23.8c10.8-2.2 22.1-3.3 33.5-3.6V32.4C163.9 34.6 95.9 76.4 57.4 139l15.8 9.1c6-9.7 12.6-18.9 20.1-27.2zm309.4 270.2l-18-15.8c-26 29.6-61.4 50.7-101.9 58.7l4.7 23.8c-10.8 1.9-22.1 3.3-33.5 3.6v18.3c78.1-2.2 146.4-44.3 184.9-106.6l-16.1-9.4c-5.7 9.7-12.6 18.8-20.1 27.4zM496 256c0 137-111 248-248 248S0 393 0 256 111 8 248 8s248 111 248 248zm-12.2 0c0-130.1-105.7-235.8-235.8-235.8S12.2 125.9 12.2 256 117.9 491.8 248 491.8 483.8 386.1 483.8 256zm-39-106.6l-15.8 9.1c5.3 9.7 10 20.2 13.6 31l-22.7 7.7c6.4 18.3 9.7 38.2 9.7 58.7s-3.6 40.4-10 58.7l23 7.7c-3.9 10.8-8.3 21-13.6 31l15.8 9.1C462 331 471.9 294.5 471.9 256s-9.9-75-27.1-106.6zm-183 177.7c16.3-3.3 30.4-11.6 40.7-23.5l51.2 44.8c11.9-13.6 21.3-29.3 27.1-46.8l-64.2-22.1c2.5-7.5 3.9-15.2 3.9-23.5s-1.4-16.1-3.9-23.5l64.5-22.1c-6.1-17.4-15.5-33.2-27.4-46.8l-51.2 44.8c-10.2-11.9-24.4-20.5-40.7-23.8l13.3-66.4c-8.6-1.9-17.7-2.8-27.1-2.8-9.4 0-18.5.8-27.1 2.8l13.3 66.4c-16.3 3.3-30.4 11.9-40.7 23.8l-51.2-44.8c-11.9 13.6-21.3 29.3-27.4 46.8l64.5 22.1c-2.5 7.5-3.9 15.2-3.9 23.5s1.4 16.1 3.9 23.5l-64.2 22.1c5.8 17.4 15.2 33.2 27.1 46.8l51.2-44.8c10.2 11.9 24.4 20.2 40.7 23.5l-13.3 66.7c8.6 1.7 17.7 2.8 27.1 2.8 9.4 0 18.5-1.1 27.1-2.8l-13.3-66.7z"></path>
+                                </svg></a></div><button type="button" class="action-button previous previous_button">Back</button><button type="button" class="next action-button">Continue</button>
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </main><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.2/js/intlTelInput.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script><script src="js/script.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Bootstrap-DateTime-Picker.js"></script>
+    <script src="assets/js/D-verification.js"></script>
+    <script src="assets/js/upload-profile.js"></script>
+</body>
+
+</html>
