@@ -1681,6 +1681,8 @@ a:focus {
 }
 
 .topbar {
+  background-color: #d8e1e7;
+  border-radius: 10px;
   height: 4.375rem;
 }
 
