@@ -20,3 +20,15 @@
   display: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+.aboutcard {
+  max-height: 252px;
+}
+
+.aboutcard > div {
+  overflow: auto;
+}
+

@@ -1339,6 +1339,7 @@ textarea.form-control-sm {
 }
 
 .px-0 {
+  background-color: #d8e1e7;
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
@@ -1354,6 +1355,7 @@ textarea.form-control-sm {
 }
 
 .py-2 {
+  background-color: #d8e1e7;
   padding-top: .5rem !important;
   padding-bottom: .5rem !important;
 }
@@ -1682,7 +1684,6 @@ a:focus {
 
 .topbar {
   background-color: #d8e1e7;
-  border-radius: 10px;
   height: 4.375rem;
 }
 
