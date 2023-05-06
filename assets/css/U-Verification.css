@@ -120,9 +120,6 @@
   content: "\f12f";
 }
 
-.multi_step_form #msform #progressbar li:nth-child(3):before {
-}
-
 .multi_step_form #msform #progressbar li:before {
   content: "\f1fa";
   font: normal normal normal 30px/50px Ionicons;

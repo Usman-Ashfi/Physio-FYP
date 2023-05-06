@@ -16,14 +16,6 @@
   content: none;
 }
 
-#patient-group::-webkit-scrollbar {
-  display: none;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-
 .aboutcard {
   max-height: 252px;
 }
